@@ -26,7 +26,7 @@ global $_POST;
 # connect to mysql
 $host = 'localhost';
 $user = 'freeswitch';
-$pass = 'professional';
+$pass = 'pass';
 $db = 'freeswitch';
 #$pdo = new PDO ("pgsql:host=$host;port=5432;dbname=$db;user=$user;password=$pass");
 $conn = pg_connect ("host=$host dbname=$db user=$user password=$pass");
